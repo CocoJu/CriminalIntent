@@ -1,16 +1,16 @@
 package testproject.CriminalIntent;
 
-import android.app.Activity;
 import android.os.Bundle;
-import java.io.*;
+import android.support.v4.app.FragmentActivity;
 
-public class MyActivity extends Activity {
+public class CrimeActivity extends FragmentActivity {
     /**
      * Called when the activity is first created.
      */
     @Override
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_crime);
     }
 }
