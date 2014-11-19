@@ -29,6 +29,7 @@ public class CrimeFragment extends Fragment {
             new TextWatcher() {
                 public void onTextChanged(CharSequence c, int start, int before, int count) {
                     mCrime.setTitle(c.toString());
+                    android.util.Log.d("test onTextChanged", c.toString());
                 }
                 public void beforeTextChanged(CharSequence c, int start, int count, int after) {
     // Здесь намеренно оставлено пустое место
